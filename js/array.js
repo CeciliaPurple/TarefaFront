@@ -28,16 +28,3 @@ const produtos = [
         preco: 'R$ 350,00',
     },
 ]
-
-let nome = document.querySelector('.nome')
-let descricao = document.querySelector('.descricao')
-let foto = document.querySelector('.foto')
-let preco = document.querySelector('.preco')
-
-let produtoContainer = document.querySelector('.produto')
-let produtoHTML = ''
-
-produtos.forEach(produto => {
-    produtoHTML += `
-    <div class=">`
-})
